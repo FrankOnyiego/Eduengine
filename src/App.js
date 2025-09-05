@@ -1,6 +1,6 @@
 import './App.css';
 import { Link } from 'react-router-dom';
-
+import ConsultLanding from './Masters';
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
 
         <div className="text-white text-lg sm:text-xl leading-relaxed mb-6 max-w-xl mx-auto text-center">
   <h2 className="text-3xl font-bold mb-4 hero-text" style={{ fontFamily: "'DM Serif Display', serif" }}>
-    Our projects include:
+    We are leaders in the following:
   </h2>
 <ul className="list-disc list-inside space-y-4 sm:space-y-5">
   <li className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
@@ -56,50 +56,32 @@ function App() {
       JSS & Senior school science concepts simulations.
     </a>
     <a
-      href="https://mail.google.com/mail/?view=cm&to=procurements@eduengine.co.ke&su=Order:%20Science%20Simulations"
+      href="https://sim-portal.eduengine.co.ke/"
       target="_blank"
       rel="noopener noreferrer"
       className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition text-sm font-semibold"
     >
-      Access site
+      Continue to our resources portal
     </a>
   </li>
 
+
   <li className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
     <a
-      href="https://mail.google.com/mail/?view=cm&to=procurements@eduengine.co.ke"
+      href="https://sim-portal.eduengine.co.ke/consult"
       target="_blank"
       rel="noopener noreferrer"
       className="relative z-10 hover:underline text-blue-700 font-bold"
     >
-      School customizable computer systems.
+      Collaboration on scientific projects.
     </a>
     <a
-      href="https://mail.google.com/mail/?view=cm&to=procurements@eduengine.co.ke&su=Order:%20Computer%20Systems"
+      href="https://sim-portal.eduengine.co.ke/consult"
       target="_blank"
       rel="noopener noreferrer"
       className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition text-sm font-semibold"
     >
-      Place Order
-    </a>
-  </li>
-
-  <li className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-    <a
-      href="https://mail.google.com/mail/?view=cm&to=procurements@eduengine.co.ke"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="relative z-10 hover:underline text-blue-700 font-bold"
-    >
-      Laboratory Instruments.
-    </a>
-    <a
-      href="https://mail.google.com/mail/?view=cm&to=procurements@eduengine.co.ke&su=Order:%20Laboratory%20Instruments"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition text-sm font-semibold"
-    >
-      Place Order
+      Continue to find a project partner.
     </a>
   </li>
 </ul>
@@ -138,7 +120,7 @@ function App() {
                 <div>
                   <h3 className="text-xl font-semibold">Frank Nyaboga</h3>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Co-founder of Eduengine, Education, Self-taught programmer. <br />
+                    Co-founder of Eduengine, Education (profession), Software Developer. <br />
                     +254 703 409780
                   </p>
                 </div>
