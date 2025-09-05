@@ -52,7 +52,7 @@ Eduengine is a collaborative platform where teachers, learners, and education st
       rel="noopener noreferrer"
       className="relative z-10 hover:underline text-blue-700 font-bold"
     >
-      JSS & Senior school science concepts simulations.
+      JSS & Senior school forum.
     </a>
     <a
       href="https://sim-portal.eduengine.co.ke/"
@@ -60,7 +60,7 @@ Eduengine is a collaborative platform where teachers, learners, and education st
       rel="noopener noreferrer"
       className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition text-sm font-semibold"
     >
-      Continue to our resources portal
+      Continue to our portal
     </a>
   </li>
 
