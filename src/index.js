@@ -10,6 +10,9 @@ import Projects from "./Projects";
 import Header from "./Header";
 import STEMKitsPage from "./kits";
 import Requests from "./consultationsRequests";
+import OrderStatus from "./Orders";
+import AuthPage from "./AuthPage";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -26,7 +29,8 @@ root.render(
       <Route path="/Projects" element={<Projects />} />
       <Route path="/kits" element={<STEMKitsPage />} />
       <Route path="/requests" element={<Requests />} />
-
+      <Route path="/orders" element={<OrderStatus />} />
+      <Route path="/AuthPage" element={<AuthPage />} />
     </Routes>
     </BrowserRouter> 
   </React.StrictMode>

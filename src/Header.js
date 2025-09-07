@@ -78,7 +78,7 @@ const Header = () => {
           <Link to="/requests" style={styles.navLink}>
             Available bids
           </Link>
-          <Link to="/chats" style={styles.navLink}>
+          <Link to="/orders" style={styles.navLink}>
             My bids
           </Link>
 
@@ -100,7 +100,7 @@ const Header = () => {
               </button>
             </>
           ) : (
-            <Link to="/auth" style={styles.navLink}>
+            <Link to="/AuthPage" style={styles.navLink}>
               Login
             </Link>
           )}
