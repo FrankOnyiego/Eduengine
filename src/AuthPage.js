@@ -50,7 +50,7 @@ const AuthPage = () => {
     console.warn('No user name found in response');
   }
 
-  navigate('/requests');
+  navigate('/');
 }
         resetForm();
       } else {

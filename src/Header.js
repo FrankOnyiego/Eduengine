@@ -30,7 +30,7 @@ const Header = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
     setUserName(null);
-    navigate("/auth");
+    navigate("/");
   };
 
   return (
@@ -72,14 +72,8 @@ const Header = () => {
           <Link to="/projects" style={styles.navLink}>
             Projects
           </Link>
-          <Link to="/kits" style={styles.navLink}>
-            Kits
-          </Link>
-          <Link to="/requests" style={styles.navLink}>
-            Available bids
-          </Link>
-          <Link to="/orders" style={styles.navLink}>
-            My bids
+          <Link to="/softwares" style={styles.navLink}>
+            Softwares
           </Link>
 
           {userName ? (

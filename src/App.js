@@ -22,20 +22,14 @@ function App() {
             Welcome to <span className="text-[#FF914D]">EduEngine</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-6">
-            CBE Consultancy – Empowering Teachers, Students, and Stakeholders through Collaborative Learning
+            Empowering Teachers, Students, and Stakeholders through Science and Technology
           </p>
           <div className="flex justify-center gap-4">
             <Link
-              to="/consult"
+              to="https://chat.whatsapp.com/BCnURfiw7irEGnLIoYHH47?mode=ems_copy_t"
               className="px-6 py-3 bg-[#FF914D] hover:bg-[#ff7a26] rounded-2xl shadow-lg text-white font-medium transition"
             >
-              Get Started
-            </Link>
-            <Link
-              to="/about"
-              className="px-6 py-3 bg-white/10 hover:bg-white/20 rounded-2xl shadow-lg text-white font-medium transition"
-            >
-              Learn More
+              Join Our Vibrant Community
             </Link>
           </div>
         </div>
@@ -50,7 +44,7 @@ function App() {
           <div className="bg-[#262626] rounded-2xl p-6 shadow-lg hover:scale-105 transition">
             <h3 className="text-xl font-semibold mb-3">Teacher Collaboration</h3>
             <p className="text-gray-400">
-              A platform where teachers can consult with each other and share best practices.
+              A platform where teachers can share with each other and share best practices.
             </p>
           </div>
           <div className="bg-[#262626] rounded-2xl p-6 shadow-lg hover:scale-105 transition">
@@ -62,7 +56,7 @@ function App() {
           <div className="bg-[#262626] rounded-2xl p-6 shadow-lg hover:scale-105 transition">
             <h3 className="text-xl font-semibold mb-3">CBC Consultancy</h3>
             <p className="text-gray-400">
-              Helping schools adapt and excel in competency-based curriculum education.
+              Helping schools adapt and excel in the AI era.
             </p>
           </div>
         </div>
@@ -70,7 +64,7 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-[#111111] py-8 text-center text-gray-500 border-t border-gray-800">
-        <p>© {new Date().getFullYear()} EduEngine – CBC Consultancy Limited</p>
+        <p>© {new Date().getFullYear()} EduEngine</p>
       </footer>
     </div>
   );

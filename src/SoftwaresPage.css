@@ -1,0 +1,83 @@
+/* General page styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+header {
+  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+}
+
+header h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+/* Card styles */
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top {
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Card body */
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #495057;
+  flex-grow: 1;
+}
+
+/* Price text */
+.text-success {
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+}

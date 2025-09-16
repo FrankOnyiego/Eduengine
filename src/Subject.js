@@ -116,7 +116,7 @@ function Subject({ subjectName, forms }) {
   };
 
   return (
-    <div className="App container py-4">
+    <div className="App container-fluid py-4 text-start">
       {loading && (
         <div
           className="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-white bg-opacity-75"
@@ -132,7 +132,7 @@ function Subject({ subjectName, forms }) {
         <>
           <h1>{subjectName} Learning Resources</h1>
 
-          {/* Consultation Form */}
+          {/* Consultation Form 
           <div className="border p-3 rounded mb-4">
             <h2>Consultation</h2>
             <form onSubmit={handleRaiseHand}>
@@ -161,6 +161,7 @@ function Subject({ subjectName, forms }) {
               </div>
             </form>
           </div>
+          */}
 
           {/* Subject Content */}
           {Object.entries(forms).map(([formName, topics]) => (
