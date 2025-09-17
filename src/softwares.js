@@ -5,6 +5,8 @@ import "./SoftwaresPage.css"; // optional custom CSS
 import sickbayImg from "./sickbay.jpg";
 import payrollImg from "./payroll.jpg";
 
+import AttendanceImg from "./attendance.jpeg";
+
 const softwares = [
   {
     name: "E-Sickbay System",
@@ -18,6 +20,13 @@ const softwares = [
     image: payrollImg,
     description:
       "A modern payroll solution that automates staff payments, deductions, and statutory compliance with accuracy and efficiency.",
+    price: "KES 200,000",
+  },
+    {
+    name: "Portable E-Attendance marker system",
+    image: AttendanceImg,
+    description:
+      "This system is meant to allow teachers to mark attendance registers electronically, ideally the teacher gives the students some device that is able to read fingerprint data and transmit it using bluetooth to mark the register stored electronically on the authorized phone.",
     price: "KES 200,000",
   },
 ];
@@ -65,7 +74,7 @@ const SoftwaresPage = () => {
                       rel="noopener noreferrer"
                       className="btn btn-primary fw-semibold"
                     >
-                      Inquire Now
+                      Buy Now
                     </a>
                   </div>
                 </div>

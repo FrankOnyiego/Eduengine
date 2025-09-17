@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,13 +37,9 @@ const Header = () => {
     <header style={styles.header}>
       <div style={styles.container}>
         {/* Logo */}
-        <Link to="/" style={styles.logoLink}>
-          <img
-            src="/MYLOGO.png"
-            alt="Sim-portal Logo"
-            style={styles.logo}
-          />
-        </Link>
+        <NavLink to="/" style={styles.logoLink}>
+          <img src="/MYLOGO.png" alt="Sim-portal Logo" style={styles.logo} />
+        </NavLink>
 
         {/* Hamburger for small screens */}
         <button
@@ -63,18 +59,44 @@ const Header = () => {
             ...(menuOpen ? styles.navOpen : {}),
           }}
         >
-          <Link to="/chemistry" style={styles.navLink}>
+          <NavLink
+            to="/chemistry"
+            style={({ isActive }) => ({
+              ...styles.navLink,
+              ...(isActive ? styles.activeLink : {}),
+            })}
+          >
             Chemistry
-          </Link>
-          <Link to="/physics" style={styles.navLink}>
+          </NavLink>
+          <NavLink
+            to="/physics"
+            style={({ isActive }) => ({
+              ...styles.navLink,
+              ...(isActive ? styles.activeLink : {}),
+            })}
+          >
             Physics
-          </Link>
-          <Link to="/projects" style={styles.navLink}>
-            Projects
-          </Link>
-          <Link to="/softwares" style={styles.navLink}>
+          </NavLink>
+
+          <NavLink
+            to="/softwares"
+            style={({ isActive }) => ({
+              ...styles.navLink,
+              ...(isActive ? styles.activeLink : {}),
+            })}
+          >
             Softwares
-          </Link>
+          </NavLink>
+
+                    <NavLink
+            to="/about"
+            style={({ isActive }) => ({
+              ...styles.navLink,
+              ...(isActive ? styles.activeLink : {}),
+            })}
+          >
+            About
+          </NavLink>
 
           {userName ? (
             <>
@@ -94,9 +116,15 @@ const Header = () => {
               </button>
             </>
           ) : (
-            <Link to="/AuthPage" style={styles.navLink}>
+            <NavLink
+              to="/AuthPage"
+              style={({ isActive }) => ({
+                ...styles.navLink,
+                ...(isActive ? styles.activeLink : {}),
+              })}
+            >
               Login
-            </Link>
+            </NavLink>
           )}
         </nav>
       </div>
@@ -195,6 +223,12 @@ const styles = {
     fontSize: "16px",
     width: "100%",
     transition: "all 0.2s ease",
+  },
+  activeLink: {
+    backgroundColor: "#0d6efd",
+    color: "#fff",
+    borderRadius: "8px",
+    fontWeight: 600,
   },
 };
 

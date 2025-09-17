@@ -38,7 +38,7 @@ function App() {
       {/* Features Section */}
       <section className="py-16 px-8 max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Why Choose <span className="text-[#FF914D]">EduEngine</span>?
+          Our <span className="text-[#FF914D]">Mission</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-[#262626] rounded-2xl p-6 shadow-lg hover:scale-105 transition">
@@ -54,7 +54,7 @@ function App() {
             </p>
           </div>
           <div className="bg-[#262626] rounded-2xl p-6 shadow-lg hover:scale-105 transition">
-            <h3 className="text-xl font-semibold mb-3">CBC Consultancy</h3>
+            <h3 className="text-xl font-semibold mb-3">Science and Technology</h3>
             <p className="text-gray-400">
               Helping schools adapt and excel in the AI era.
             </p>

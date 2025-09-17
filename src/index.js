@@ -6,7 +6,7 @@ import { Router, Route, Routes } from "react-router-dom";
 import Consult from "./consult";
 import Chemistry from "./Chemistry";
 import Physics from "./physics";
-import Projects from "./Projects";
+import AboutPage from "./About";
 import Header from "./Header";
 import SoftwaresPage from "./softwares";
 import AuthPage from "./AuthPage";
@@ -24,7 +24,7 @@ root.render(
       <Route path="/consult" element={<Consult />} />
       <Route path="/chemistry" element={<Chemistry />} />
       <Route path="/physics" element={<Physics />} />
-      <Route path="/Projects" element={<Projects />} />
+      <Route path="/about" element={<AboutPage />} />
       <Route path="/softwares" element={<SoftwaresPage />} />
       <Route path="/AuthPage" element={<AuthPage />} />
     </Routes>
